@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css" media="screen" title="no title">
+  <link href="https://fonts.googleapis.com/css?family=Overlock|Quicksand" rel="stylesheet">
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <script type="text/javascript" src="../assets/js/instafeed.min.js"></script>
+  <script type="text/javascript" src="../assets/js/app.js"></script>
+  <title>My Profile</title>
+</head>
+
+<body>
+  <!-- Uses a transparent header that draws on top of the layout's background -->
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <!--My Bio Page-->
+          <span class="mdl-layout-title font-cursive-gaby">Gabriela's Profile</span>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">More of me</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="https://pr.linkedin.com/in/gabrielarivera9">LinkedIn</a>
+        <a class="mdl-navigation__link" href="https://github.com/GabyRive">GitHub</a>
+        <a class="mdl-navigation__link" href="https://twitter.com/PepaRiveraa">Twitter</a>
+        <a class="mdl-navigation__link" href="https://www.facebook.com/Gabu.Lela">Facebook</a>
+        <a class="mdl-navigation__link" href="https://www.instagram.com/gabyrive_/?hl=en">Instagram</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <!--About Me  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell--2-offset">
+          <div class="demo-card-image mdl-card mdl-shadow--2dp" id="profile-pic">
+            <div class="mdl-card__title mdl-card--expand"></div>
+            <div class="mdl-card__actions">
+              <span class="demo-card-image__filename font-cursive-gaby">Gabriela J. Rivera Velázquez</span>
+            </div>
+          </div>
+        </div>
+        <!--Bio -->
+        <div class="mdl-cell mdl-shadow--2dp" id="update">
+          <div class="mdl-card__supporting-text">
+            <h2 class="font-cursive-name diviror-display">
+              My Bio
+            </h2>
+            <img class="profile-img" src="../assets/images/darth_vader.png" alt="darth_vader" width="40px">
+          </div>
+          <div class="mdl-cell mdl-cell--12-col" id="bio-p">
+            <p class="font-serif-name">Graduate from the University of Puerto Rico in Humacao, with a International Business and Accountings BBA. Currently studying a Juris Doctor in the University of Puerto Rico, Rio Piedras campus. Worked in government, non-profit organizations
+              and technology industries. Interested in Intelectual Property and Technology Law. </p>
+          </div>
+        </div>
+      </div>
+
+      <!--Experience  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--10-col mdl-shadow--2dp mdl-cell--1-offset divider">
+            <h2 class="font-cursive-divisor diviror-display">Experience</h2>
+            <img class="profile-img" src="../assets/images/Millennium-Falcon-icon.png" alt="falcon" width="40px">
+        </div>
+      </div>
+      <!--Transcita  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--1-offset">
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title" id="transcita">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="font-cursive-name">Transcita</span>
+              <br>Assistant Web Development
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <ul>
+                <li class="font-serif-name">Develop Web Forms Views for Web Application in order for them to export their operations to Colombia.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--youthspeak  -->
+        <div class="mdl-cell mdl-cell--5-col">
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title" id="youthspeak">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="font-cursive-name">YouthSpeak Forum</span>
+              <br> Project Manager
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <ul>
+                <li class="font-serif-name">Design the agenda flow and planed logistics for the event discussing the reality of Puerto Rico and the importance of the 17 Sustainable Development Goals of the United Nations. </li>
+                <li class="font-serif-name"> Create alliances with Enactus Puerto Rico, the Polytechnic University, Ballet Concierto and other companies to identify and recruit speakers and fundraise donations event.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Chamber of Commerce  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--1-offset">
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title" id="chamber-of-commerce">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="font-cursive-name">Chamber of Commerce Director, José Ledesma</span>
+              <br> Campaign Manager, Social Media Manager
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <ul class="font-serif-name">
+                <li>Manage successful campaign implementing strategic plans in order to obtain awareness and growth in the number of votes. </li>
+                <li>Attend events and create network to create campaign and platform awareness.</li>
+                <li>Design and executed social campaign with digital art promotions for networking events.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--AIESEC  -->
+        <div class="mdl-cell mdl-cell--5-col ">
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title" id="aiesec">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="font-cursive-name">AIESEC in Puerto Rico</span>
+              <br> Team Leader
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <ul class="font-serif-name">
+                <li>Finance, Legal and Business Development Manager: Manage and supervise budgets, bookkeeping, legal documentation and the creation of partnerships for the entity at a national level (120+ members island wide) and improve product development
+                  for the organization’s innovations and growth.</li>
+                <li>President & Founder: Lead the board of directors in order to open an Official Extension at the University of Humacao being part of the organization’s network and coordinate alliances between AIESEC in Humacao and the University of Puerto
+                  Rico. </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Puerto Rico Trade  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--1-offset">
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title" id="puertorico-trade">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="font-cursive-name">Puerto Rico Trade Company</span>
+              <br> PromoExport Intern
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <ul class="font-serif-name">
+                <li>Organized exhibitions, conferences and projects for 25+ local and 10+ foreign companies to promote trade of goods and services between Puerto Rico and other countries.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--Independent Projects  -->
+        <div class="mdl-cell mdl-cell--5-col">
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title" id="turn">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="font-cursive-name">Turn.App</span>
+              <br> Independent Project
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <p class="font-serif-name">Find more information in our website: </p>
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://turn-app.herokuapp.com/index.html">
+                Turn.App
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Experience -->
+      <!-- Education  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--10-col mdl-shadow--2dp mdl-cell--1-offset divider">
+            <h2 class="font-cursive-divisor diviror-display">
+                Education
+              </h2>
+            <img class="profile-img" src="../assets/images/yoda.svg" alt="yoda" width="55px">
+        </div>
+      </div>
+      <!--MongoDB  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--1-offset">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp" id="mongodb">
+            <div class="mdl-card__title mdl-card--expand" id="mongodb-pic">
+            </div>
+            <div class="mdl-card__supporting-text font-cursive-name">
+              MongoDB University
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <p class="font-serif-name"> Learned basic installation of MongoDB, JSON, schema design, querying, insertion of data, indexing and working with language drivers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Law School  -->
+        <div class="mdl-cell mdl-cell--4-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp" id="uprrp">
+            <div class="mdl-card__title mdl-card--expand" id="uprrp-pic">
+            </div>
+            <div class="mdl-card__supporting-text font-cursive-name">
+              University of Puerto Rico, Rio Piedras
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <p class="font-serif-name">I am in my first year of Law School. To see more of my experience please visit:</p>
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.linkedin.com/pulse/primera-argumentaci%C3%B3n-oral-gabriela-rivera-vel%C3%A1zquez?trk=prof-post">
+                My Articles
+            </a>
+            </div>
+          </div>
+        </div>
+        <!--Codetrotters  -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp" id="codetrotters">
+            <div class="mdl-card__title mdl-card--expand" id="codetrotters-pic">
+            </div>
+            <div class="mdl-card__supporting-text font-cursive-name">
+              Codetrotters Academy
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <p class="font-serif-name">Learned and developed Web Development projects using html, CSS, JavaScript, Node.js and Express. See more here:</p>
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/GabyRive">
+              My Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Education  -->
+      <!--Honors and awards  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--10-col mdl-shadow--2dp mdl-cell--1-offset divider">
+            <h2 class="font-cursive-divisor diviror-display">
+            Honors and Awards
+          </h2>
+          <img class="profile-img" src="../assets/images/R2d2.png" alt="R2D2" width="40px">
+        </div>
+      </div>
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--1-offset">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp" id="startup-weekend">
+            <div class="mdl-card__title mdl-card--expand" id="startup-weekend-pic">
+            </div>
+            <div class="mdl-card__supporting-text font-cursive-name">
+              StartUp Weekend
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <p class="font-serif-name"> Creation of a complete StartUp using the Business Model Canvas in 54hours and present the idea to a panel of judges from EDP University and Puerto Rico Trade Center.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--5-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp" id="hacu">
+            <div class="mdl-card__title mdl-card--expand" id="hacu-pic">
+            </div>
+            <div class="mdl-card__supporting-text font-cursive-name">
+              Hispanic Association of Colleges and Universities (HACU)
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <p class="font-serif-name"> Scholarship recipient to participate at the 26th Annual Conference at Washington, DC.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Skills  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--10-col mdl-shadow--2dp mdl-cell--1-offset divider">
+            <h2 class="font-cursive-divisor diviror-display">
+            Skills and Interest
+          </h2>
+          <img class="profile-img" src="../assets/images/light-sabers.png" alt="light_sabers" width="100px">
+        </div>
+      </div>
+      <!--Instafeed  -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--10-col mdl-shadow--2dp mdl-cell--1-offset" id="instagram">
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--2-offset">
+            <p class="font-serif-name" id="interest-skills"> <b style="color: rgb(212, 0, 121);">Web Development:</b> HTML, CSS, Bootstrap, JavaScript, JQuery., C# and ASP.net.
+              <b style="color: rgb(212, 0, 121);">Interests:</b> Art, Technology, Business, Diplomacy, Economics, Public Affairs and International Relations.</p>
+          </div>
+          <div class="mdl-cell mdl-cell--11-col" id="instafeed">
+          </div>
+        </div>
+      </div>
+      <!--Footer  -->
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo font-cursive-gaby"> <b style="color: white;">Contact me:</b></div>
+          <ul class="mdl-mini-footer__link-list font-cursive-gaby">
+            <li>gabriela.rivera1491@gmail.com</li>
+            <li>+1 (787) 216-3425</li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+</body>
+
+</html>

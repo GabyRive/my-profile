@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Overlock', cursive;
+}
+
+.font-cursive-gaby{
+  font-family: 'Overlock', cursive;
+  color: rgb(237, 185, 232);
+}
+
+.font-cursive-divisor{
+  font-family: 'Overlock', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(249, 94, 164)
+}
+
+.diviror-display{
+  display: inline;
+}
+
+.profile-img {
+  float: right;
+}
+
+.font-cursive-name {
+  font-family: 'Overlock', cursive;
+  font-size: 20px;
+  color: rgb(212, 0, 121);
+}
+
+
+.font-serif-name {
+  font-family: 'Quicksand', serif;
+}
+
+.demo-layout-transparent {
+  background: url('../images/784360G.jpg') center / cover;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+ your background is light. */
+  color: white;
+}
+
+#profile-pic {
+  width: 256px;
+  height: 256px;
+  background: url('../images/gabriela.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mdl-card{
+  width: 100%;
+  height: 100%;
+}
+
+#update{
+  background-color: white;
+  width: 45%;
+  margin-left: 0px;
+}
+
+.divider {
+  background-color: white;
+  padding: 20px;
+}
+
+#experience > .mdl-card__supporting-text > h2 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+#experience-list > ul > li {
+  list-style: none;
+}
+
+
+#education > div > h2 {
+ font-size: 30px;
+ margin-bottom: 0px;
+ margin-top: 0px;
+}
+
+#div-education {
+  padding: 10px;
+  margin-top: 0px;
+}
+
+#instagram{
+  background-color: white;
+}
+#instafeed {
+  margin-left: 50px;
+}
+
+.mdl-mini-footer {
+  background-color: rgb(212, 0, 121);
+}
+
+p#interest-skills {
+  text-align: center;
+}
+
+#bio-p {
+  text-align: justify;
+}
+
+/**/experience
+.demo-card-wide.mdl-card {
+  width: 550px;
+}
+.demo-card-wide > #transcita {
+  color: rgb(212, 0, 121);
+  height: 350px;
+  background: url('../images/transcita2.JPG') center / cover;
+}
+
+.demo-card-wide > #youthspeak {
+  color: rgb(212, 0, 121);
+  height: 270px;
+  background: url('../images/youthspeak.jpg') center / cover;
+}
+.demo-card-wide > #chamber-of-commerce {
+  color: rgb(212, 0, 121);
+  height: 320px;
+  background: url('../images/chamber-of-commerce.JPG') center / cover;
+}
+.demo-card-wide > #aiesec {
+  color: rgb(212, 0, 121);
+  height: 250px;
+  background: url('../images/aiesec.JPG') center / cover;
+}
+.demo-card-wide > #puertorico-trade {
+  color: rgb(212, 0, 121);
+  height: 400px;
+  background: url('../images/comercio-exportacion.JPG') center / cover;
+}
+.demo-card-wide > #turn {
+  color: rgb(212, 0, 121);
+  height: 450px;
+  background: url('../images/turn.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.mdl-card__actions > h4{
+  font-size: 14px;
+}
+
+/**/end experience
+
+/**/education
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+#mongodb {
+  height: 300px;
+}
+
+.demo-card-square >  #mongodb-pic {
+  background:
+    url('../images/mongodb.png') center / cover ;
+}
+
+.demo-card-square > #uprrp-pic {
+  background:
+    url('../images/derecho.png') center / cover ;
+}
+
+.demo-card-square > #codetrotters-pic {
+  background:
+    url('../images/codetrotters.png') center / cover ;
+}
+
+.demo-card-square > #startup-weekend-pic {
+  background:
+    url('../images/12265889_10156279391300578_258121656324914068_o.jpg') center / cover ;
+}
+
+.demo-card-square > #hacu-pic {
+  background:
+    url('../images/washington.png') center / cover ;
+  height: 320px;
+}
+
+/**/end education
